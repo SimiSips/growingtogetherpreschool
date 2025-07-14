@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { TreePine, Heart, Star, Sparkles } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Heart, Star, Sparkles } from 'lucide-react';
 import logo from '../assets/logo.png';
 
 const Hero = () => {

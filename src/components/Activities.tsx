@@ -1,4 +1,3 @@
-import React from 'react';
 import { Palette, Music, Zap, Leaf, BookOpen, Building } from 'lucide-react';
 
 const Activities = () => {

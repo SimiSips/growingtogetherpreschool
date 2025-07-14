@@ -1,5 +1,4 @@
-import React from 'react';
-import { TreePine, Mail, Phone, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
 import logo from '../assets/logo.png';
 
 const Footer = () => {

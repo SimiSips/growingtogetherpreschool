@@ -1,4 +1,3 @@
-import React from 'react';
 import { Baby, Users, GraduationCap, Clock, MapPin, BookOpen } from 'lucide-react';
 
 const Programs = () => {

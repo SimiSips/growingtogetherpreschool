@@ -1,4 +1,3 @@
-import React from 'react';
 import { Award, BookOpen, Heart, Star } from 'lucide-react';
 
 const Teachers = () => {
