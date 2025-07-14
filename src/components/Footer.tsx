@@ -1,5 +1,6 @@
 import React from 'react';
 import { TreePine, Mail, Phone, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
+import logo from '../assets/logo.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,9 +13,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-green-800 to-yellow-500 rounded-full flex items-center justify-center">
-                <TreePine className="w-6 h-6 text-white" />
-              </div>
+              <img src={logo} alt="Growing Together Pre-School Logo" className="h-10 w-auto" />
               <div>
                 <h3 className="text-xl font-bold text-green-400">Growing Together</h3>
                 <p className="text-sm text-yellow-400">Pre-School</p>

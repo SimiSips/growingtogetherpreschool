@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, TreePine } from 'lucide-react';
+import logo from '../assets/logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,11 +20,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-orange-500 rounded-full flex items-center justify-center">
-            </div>
-            <div className="w-12 h-12 bg-gradient-to-br from-green-800 to-yellow-500 rounded-full flex items-center justify-center">
-              <TreePine className="w-6 h-6 text-white" />
-            </div>
+            <img src={logo} alt="Growing Together Pre-School Logo" className="h-14 w-auto rounded-none" />
             <div>
               <h1 className="text-xl font-bold text-green-800">Growing Together</h1>
               <p className="text-sm text-yellow-600">Pre-School</p>

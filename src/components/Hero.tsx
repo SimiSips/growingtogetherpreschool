@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { TreePine, Heart, Star, Sparkles } from 'lucide-react';
+import logo from '../assets/logo.png';
 
 const Hero = () => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
@@ -52,9 +53,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           {/* Logo */}
           <div className="mb-8">
-            <div className="w-24 h-24 mx-auto bg-gradient-to-br from-green-800 to-yellow-500 rounded-full flex items-center justify-center mb-4 shadow-2xl">
-              <TreePine className="w-12 h-12 text-white" />
-            </div>
+            <img src={logo} alt="Growing Together Pre-School Logo" className="h-24 w-auto mx-auto mb-4 shadow-2xl" />
             <h1 className="text-4xl md:text-6xl font-bold mb-2">
               <span className="text-green-800">Growing Together</span>
               <br />
