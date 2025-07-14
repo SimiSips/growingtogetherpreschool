@@ -60,7 +60,7 @@ const Hero = () => {
               <br />
               <span className="text-yellow-600">Pre-School</span>
             </h1>
-            <p className="text-xl text-gray-600 mb-8">Where Life Begins to Bloom</p>
+            <p className="text-xl text-gray-600 mb-8">Where Life Is</p>
           </div>
 
           {/* Typewriter Effect */}

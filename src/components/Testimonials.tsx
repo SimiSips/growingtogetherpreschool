@@ -32,8 +32,8 @@ const Testimonials = () => {
       role: "Father of Lucas (Age 5)",
       image: "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=1",
       rating: 5,
-      text: "The Pre-K program excellently prepared Lucas for kindergarten. He's reading, writing, and most importantly, loves learning. Thank you, Growing Together!",
-      highlight: "Excellently prepared Lucas for kindergarten"
+      text: "The Pre-K program excellently prepared Lucas for creche. He's reading, writing, and most importantly, loves learning. Thank you, Growing Together!",
+      highlight: "Excellently prepared Lucas for creche"
     }
   ];
 

@@ -53,7 +53,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Address</h4>
-                    <p className="text-gray-600">123 Learning Lane<br />Sunshine City, SC 12345</p>
+                    <p className="text-gray-600">45 Coalbrook Rd, South Hills,<br />Johannesburg South, 2197</p>
                   </div>
                 </div>
 
@@ -63,7 +63,18 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Phone</h4>
-                    <p className="text-gray-600">(555) 123-4567</p>
+                    <p className="text-gray-600">011 613 3674 | 084 508 1852</p>
+                  </div>
+                </div>
+
+                {/* Principal/Owner */}
+                <div className="flex items-start">
+                  <div className="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                    <span className="text-white font-bold text-lg">J</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-1">Principal & Owner</h4>
+                    <p className="text-gray-600">Joyce Mdlalose</p>
                   </div>
                 </div>
 
@@ -73,7 +84,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Email</h4>
-                    <p className="text-gray-600">info@growingtogetherpreschool.com</p>
+                    <p className="text-gray-600">growingtogetherecd@gmail.com</p>
                   </div>
                 </div>
 
@@ -84,9 +95,9 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Hours</h4>
                     <p className="text-gray-600">
-                      Monday - Friday: 7:00 AM - 6:00 PM<br />
-                      Saturday: 8:00 AM - 12:00 PM<br />
-                      Sunday: Closed
+                      Monday - Friday: 06:30 AM - 5:30 PM<br />
+                      Saturday & Sunday: Closed <br />
+                      Open during school holidays
                     </p>
                   </div>
                 </div>

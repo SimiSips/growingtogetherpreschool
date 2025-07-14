@@ -21,9 +21,9 @@ const Programs = () => {
     },
     {
       icon: <GraduationCap className="w-8 h-8 text-green-500" />,
-      title: "Pre-K Program",
+      title: "Grade R Program",
       age: "4 - 5 years",
-      description: "Kindergarten readiness program focusing on academic skills and independence.",
+      description: "Creche readiness program focusing on academic skills and independence.",
       features: ["Reading readiness", "Writing skills", "Problem solving", "School preparation"],
       color: "from-green-500 to-emerald-500"
     }
