@@ -4,40 +4,40 @@ import { Award, BookOpen, Heart, Star } from 'lucide-react';
 const Teachers = () => {
   const teachers = [
     {
-      name: "Sarah Johnson",
-      title: "Director & Lead Teacher",
-      education: "M.Ed. Early Childhood Education",
+      name: "Joyce Mdlalose",
+      title: "Principal & Owner",
+      education: "TBC",
       experience: "15 years experience",
       image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1",
       specialties: ["Curriculum Development", "Parent Communication", "Special Needs Support"],
       quote: "Every child is a unique flower that needs nurturing to bloom beautifully."
     },
     {
-      name: "Maria Rodriguez",
+      name: "Elizabeth _________",
       title: "Preschool Teacher",
-      education: "B.A. Child Development",
+      education: "TBC",
       experience: "8 years experience",
       image: "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1",
       specialties: ["Bilingual Education", "Art & Creativity", "Music & Movement"],
       quote: "Learning happens best when children are having fun and feeling loved."
     },
     {
-      name: "Emily Chen",
-      title: "Toddler Specialist",
-      education: "B.S. Early Childhood Education",
+      name: "Sanele Radebe",
+      title: "Teacher's Assistant",
+      education: "TBC",
       experience: "6 years experience",
       image: "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1",
       specialties: ["Toddler Development", "Sensory Play", "Social Skills"],
       quote: "The smallest steps forward are still steps in the right direction."
     },
     {
-      name: "Jennifer Thompson",
-      title: "Pre-K Teacher",
-      education: "M.Ed. Elementary Education",
-      experience: "10 years experience",
-      image: "https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1",
-      specialties: ["Reading Readiness", "STEM Activities", "School Preparation"],
-      quote: "Building confidence in young learners is the foundation of lifelong success."
+      name: "TBC",
+      title: "Teacher",
+      education: "TBC",
+      experience: "6 years experience",
+      image: "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1",
+      specialties: ["Toddler Development", "Sensory Play", "Social Skills"],
+      quote: "The smallest steps forward are still steps in the right direction."
     }
   ];
 

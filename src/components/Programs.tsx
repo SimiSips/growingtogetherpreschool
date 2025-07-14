@@ -1,20 +1,20 @@
 import React from 'react';
-import { Baby, Users, GraduationCap, Clock, MapPin } from 'lucide-react';
+import { Baby, Users, GraduationCap, Clock, MapPin, BookOpen } from 'lucide-react';
 
 const Programs = () => {
   const programs = [
     {
       icon: <Baby className="w-8 h-8 text-pink-500" />,
-      title: "Toddler Program",
-      age: "18 months - 2 years",
+      title: "Babies Program",
+      age: "6 months - 2 years",
       description: "A gentle introduction to group activities, basic social skills, and sensory exploration.",
       features: ["Sensory play", "Music & movement", "Basic social skills", "Potty training support"],
       color: "from-pink-500 to-purple-500"
     },
     {
       icon: <Users className="w-8 h-8 text-blue-500" />,
-      title: "Preschool Program",
-      age: "3 - 4 years",
+      title: "Toddlers Program",
+      age: "2 - 3 years",
       description: "Structured learning activities that promote cognitive, social, and emotional development.",
       features: ["Early literacy", "Math concepts", "Science exploration", "Art & crafts"],
       color: "from-blue-500 to-cyan-500"
@@ -22,8 +22,16 @@ const Programs = () => {
     {
       icon: <GraduationCap className="w-8 h-8 text-green-500" />,
       title: "Grade R Program",
-      age: "4 - 5 years",
+      age: "4 - 6 years",
       description: "Creche readiness program focusing on academic skills and independence.",
+      features: ["Reading readiness", "Writing skills", "Problem solving", "School preparation"],
+      color: "from-green-500 to-emerald-500"
+    },
+    {
+      icon: <BookOpen className="w-8 h-8 text-green-500" />,
+      title: "Aftercare Program",
+      age: "6 years and above",
+      description: "Aftercare program for children aged 6 years and above, providing a safe and nurturing environment for children to continue their learning journey.",
       features: ["Reading readiness", "Writing skills", "Problem solving", "School preparation"],
       color: "from-green-500 to-emerald-500"
     }
@@ -41,7 +49,7 @@ const Programs = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {programs.map((program, index) => (
             <div key={index} className="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
               <div className={`bg-gradient-to-r ${program.color} p-6 text-white`}>
@@ -79,14 +87,14 @@ const Programs = () => {
                 <Clock className="w-6 h-6 text-green-800 mr-3" />
                 <div>
                   <p className="font-semibold text-gray-800">Half Day</p>
-                  <p className="text-gray-600">9:00 AM - 12:00 PM</p>
+                  <p className="text-gray-600">06:30 AM - 12:00 PM</p>
                 </div>
               </div>
               <div className="flex items-center justify-center">
                 <Clock className="w-6 h-6 text-yellow-500 mr-3" />
                 <div>
                   <p className="font-semibold text-gray-800">Full Day</p>
-                  <p className="text-gray-600">7:00 AM - 6:00 PM</p>
+                  <p className="text-gray-600">06:30 AM - 05:30 PM</p>
                 </div>
               </div>
               <div className="flex items-center justify-center">

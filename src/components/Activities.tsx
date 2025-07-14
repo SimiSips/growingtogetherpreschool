@@ -117,15 +117,15 @@ const Activities = () => {
           <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Daily Schedule</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="p-4 bg-gradient-to-br from-green-50 to-green-100 rounded-xl">
-              <h4 className="font-semibold text-green-800 mb-2">Morning (9:00 AM - 11:00 AM)</h4>
+              <h4 className="font-semibold text-green-800 mb-2">Morning (06:30 AM - 11:00 AM)</h4>
               <p className="text-gray-600">Circle time, learning activities, and free play</p>
             </div>
             <div className="p-4 bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-xl">
               <h4 className="font-semibold text-yellow-700 mb-2">Midday (11:00 AM - 2:00 PM)</h4>
-              <p className="text-gray-600">Outdoor play, lunch, and quiet time</p>
+              <p className="text-gray-600">Outdoor play, lunch, and nap time</p>
             </div>
             <div className="p-4 bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl">
-              <h4 className="font-semibold text-blue-700 mb-2">Afternoon (2:00 PM - 5:00 PM)</h4>
+              <h4 className="font-semibold text-blue-700 mb-2">Afternoon (2:00 PM - 5:30 PM)</h4>
               <p className="text-gray-600">Arts & crafts, snack time, and structured activities</p>
             </div>
           </div>
